@@ -103,10 +103,10 @@
     </main>
 
     <section class="relative z-10 py-16 md:py-24 border-t border-white/5 bg-slate-900/50 overflow-hidden">
-        <div class="container mx-auto px-4 md:px-6 flex flex-col lg:flex-row items-center gap-12 md:gap-16">
+        <div class="container mx-auto px-4 md:px-6 flex flex-col lg:flex-row items-center gap-12 md:gap-16 flex-wrap">
             
-            <div class="w-full lg:w-1/2 text-center lg:text-left z-10">
-                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-400 text-xs font-bold uppercase tracking-wider mb-6">
+            <div class="w-full lg:w-5/12 text-center lg:text-left z-10 flex flex-col">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 text-cyan-400 text-xs font-bold uppercase tracking-wider mb-6 mx-auto lg:mx-0 w-max">
                     Agentes Autónomos
                 </div>
                 <h2 class="text-3xl md:text-5xl font-bold text-white mb-4 md:mb-6 leading-tight">O fim do atendimento manual.</h2>
@@ -134,25 +134,15 @@
                             <p class="text-slate-400 text-xs mt-1">Separa curiosos de compradores com intenção real.</p>
                         </div>
                     </div>
-
-                    <div class="glass-panel p-4 rounded-2xl border-l-2 border-l-indigo-400 flex gap-4 items-center">
-                        <div class="w-10 h-10 rounded-full bg-indigo-500/10 flex items-center justify-center flex-shrink-0">
-                            <i data-lucide="workflow" class="w-5 h-5 text-indigo-400"></i>
-                        </div>
-                        <div>
-                            <h4 class="text-white font-bold text-sm md:text-base">Integração com CRM</h4>
-                            <p class="text-slate-400 text-xs mt-1">Lead quente enviado direto para o seu painel de vendas.</p>
-                        </div>
-                    </div>
                 </div>
 
                 <a href="https://wa.me/5535999700513?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20a%20Automa%C3%A7%C3%A3o%20com%20IA." 
-                   class="inline-flex items-center justify-center gap-2 bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-bold text-sm px-6 py-4 rounded-full transition-all shadow-[0_0_15px_rgba(34,211,238,0.3)] w-full sm:w-auto">
+                   class="hidden lg:inline-flex items-center justify-center gap-2 bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-bold text-sm px-6 py-4 rounded-full transition-all shadow-[0_0_15px_rgba(34,211,238,0.3)] w-max">
                     <i data-lucide="zap" class="w-4 h-4"></i> Automatizar Minhas Vendas 
                 </a>
             </div>
 
-            <div class="w-full lg:w-1/2 relative mt-4 flex justify-center">
+            <div class="w-full lg:flex-1 relative mt-4 flex justify-center">
                 <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 bg-cyan-500/20 blur-[100px] rounded-full -z-10"></div>
                 
                 <div class="w-full max-w-md glass-panel rounded-[2rem] border border-white/10 shadow-2xl transform transition duration-500 hover:-translate-y-2 overflow-hidden flex flex-col h-[480px]">
@@ -170,57 +160,38 @@
                                 <p class="text-green-400 text-[10px] font-semibold tracking-wide">Online • Respondendo em 1s</p>
                             </div>
                         </div>
-                        <div class="flex gap-2 text-slate-400">
-                            <i data-lucide="phone" class="w-4 h-4"></i>
-                            <i data-lucide="more-vertical" class="w-4 h-4"></i>
-                        </div>
                     </div>
 
                     <div class="flex-1 p-5 overflow-y-auto hide-scrollbar space-y-4 bg-[#0a101d]/50 relative z-10 flex flex-col justify-end">
-                        
                         <div class="flex flex-col items-end gap-1">
                             <div class="bg-cyan-600 text-white text-sm px-4 py-2.5 rounded-2xl rounded-tr-sm max-w-[85%] shadow-md">
-                                Olá! Tenho uma clínica e perco muitos leads fora do horário comercial. Vocês ajudam com isso?
+                                Olá! Tenho uma clínica e perco muitos leads fora do horário comercial.
                             </div>
                             <span class="text-[9px] text-slate-500">14:02</span>
                         </div>
-
                         <div class="flex flex-col items-start gap-1">
                             <div class="bg-slate-800 border border-white/5 text-slate-200 text-sm px-4 py-2.5 rounded-2xl rounded-tl-sm max-w-[85%] shadow-md">
-                                Olá! Com certeza ⚡. Nossa IA qualifica seus pacientes e realiza o agendamento diretamente na sua agenda, 24h por dia.
-                            </div>
-                        </div>
-                        
-                        <div class="flex flex-col items-start gap-1">
-                            <div class="bg-slate-800 border border-white/5 text-slate-200 text-sm px-4 py-2.5 rounded-2xl rounded-tl-sm max-w-[85%] shadow-md">
-                                Qual sistema de agendamento a sua clínica usa hoje?
+                                Olá! Com certeza ⚡. Nossa IA qualifica e agenda 24h por dia. Qual sistema vocês usam hoje?
                             </div>
                             <span class="text-[9px] text-slate-500">14:02</span>
                         </div>
-
                         <div class="flex flex-col items-end gap-1">
                             <div class="bg-cyan-600 text-white text-sm px-4 py-2.5 rounded-2xl rounded-tr-sm max-w-[85%] shadow-md">
                                 Usamos o Salão Pro.
                             </div>
                             <span class="text-[9px] text-slate-500">14:03</span>
                         </div>
-
                         <div class="flex flex-col items-start gap-1">
                             <div class="bg-slate-800 border border-cyan-500/30 text-slate-200 text-sm px-4 py-2.5 rounded-2xl rounded-tl-sm max-w-[85%] shadow-md shadow-cyan-500/10">
-                                Perfeito! Temos integração nativa com esse sistema. Quer agendar uma demonstração de 10 min com nosso engenheiro?
-                                
+                                Temos integração nativa! Quer agendar uma demonstração de 10 min?
                                 <div class="mt-3 flex gap-2">
                                     <div class="bg-cyan-500/20 text-cyan-400 text-xs font-bold px-3 py-1.5 rounded-lg border border-cyan-500/30">
                                         Sim, agendar
-                                    </div>
-                                    <div class="bg-white/5 text-slate-400 text-xs font-bold px-3 py-1.5 rounded-lg border border-white/10">
-                                        Falar com humano
                                     </div>
                                 </div>
                             </div>
                             <span class="text-[9px] text-slate-500">14:03</span>
                         </div>
-
                     </div>
 
                     <div class="bg-slate-800/80 backdrop-blur-md p-4 border-t border-white/5 z-20 flex items-center gap-3">
@@ -234,19 +205,26 @@
                     </div>
                 </div>
             </div>
+
+            <div class="w-full mt-8 flex justify-center lg:hidden">
+                <a href="https://wa.me/5535999700513?text=Ol%C3%A1%21%20Gostaria%20de%20saber%20mais%20sobre%20a%20Automa%C3%A7%C3%A3o%20com%20IA." 
+                   class="inline-flex items-center justify-center gap-2 bg-cyan-500 hover:bg-cyan-400 text-slate-900 font-bold text-sm px-6 py-4 rounded-full transition-all shadow-[0_0_15px_rgba(34,211,238,0.3)] w-full sm:w-auto">
+                    <i data-lucide="zap" class="w-4 h-4"></i> Automatizar Minhas Vendas 
+                </a>
+            </div>
             
         </div>
     </section>
 
     <section class="relative z-10 py-16 md:py-24 border-t border-white/5">
-        <div class="container mx-auto px-4 md:px-6 flex flex-col lg:flex-row items-center gap-12 md:gap-16">
-            <div class="w-full lg:w-1/2 text-center lg:text-left">
-                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-xs font-bold uppercase tracking-wider mb-6">
+        <div class="container mx-auto px-4 md:px-6 flex flex-col lg:flex-row items-center gap-12 md:gap-16 flex-wrap">
+            <div class="w-full lg:w-5/12 text-center lg:text-left flex flex-col">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-xs font-bold uppercase tracking-wider mb-6 mx-auto lg:mx-0 w-max">
                     Soluções Corporativas
                 </div>
                 <h2 class="text-3xl md:text-5xl font-bold text-white mb-4 md:mb-6 leading-tight">Apps que curam<br class="hidden lg:block"> dores reais.</h2>
                 <p class="text-slate-400 text-base md:text-lg mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
-                    O fim das pranchetas de papel, planilhas perdidas e falta de comunicação. Substitua processos arcaicos por aplicativos nativos que conectam a sua equipe de campo ao escritório em tempo real.
+                    O fim das pranchetas de papel, planilhas perdidas e falta de comunicação. Substitua processos arcaicos por aplicativos nativos.
                 </p>
                 
                 <div class="space-y-4 md:space-y-6 mb-10 text-left max-w-lg mx-auto lg:mx-0">
@@ -264,20 +242,19 @@
                             <i data-lucide="scan" class="w-5 h-5 md:w-6 md:h-6 text-cyan-400"></i>
                         </div>
                         <div>
-                            <h4 class="text-white font-bold text-base md:text-lg">Recursos Nativos (Hardware)</h4>
-                            <p class="text-slate-400 text-sm">Uso inteligente de GPS, Câmera (QR Code) e push notifications integradas (Java/Kotlin).</p>
+                            <h4 class="text-white font-bold text-base md:text-lg">Recursos Nativos</h4>
+                            <p class="text-slate-400 text-sm">Uso de GPS, Câmera e push notifications integradas (Java/Kotlin).</p>
                         </div>
                     </div>
                 </div>
 
                 <a href="https://wa.me/5535999700513?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20um%20App%20Sob%20Medida%20para%20minha%20empresa." 
-                   class="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-200 text-slate-900 font-bold text-sm px-6 py-4 rounded-full transition-all w-full sm:w-auto">
-                    Solicitar Orçamento 
-                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                   class="hidden lg:inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-200 text-slate-900 font-bold text-sm px-6 py-4 rounded-full transition-all w-max">
+                    Solicitar Orçamento <i data-lucide="arrow-right" class="w-4 h-4"></i>
                 </a>
             </div>
             
-            <div class="w-full lg:w-1/2 relative mt-8 lg:mt-0 flex justify-center">
+            <div class="w-full lg:flex-1 relative mt-8 lg:mt-0 flex justify-center">
                 <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-blue-500/30 blur-[80px] rounded-full -z-10"></div>
                 
                 <div class="relative mx-auto border-[#1c1c1e] bg-[#1c1c1e] border-[10px] sm:border-[14px] rounded-[2.5rem] h-[500px] w-[250px] sm:h-[600px] sm:w-[300px] shadow-2xl shadow-blue-500/20 transform transition duration-500 hover:-translate-y-2">
@@ -287,7 +264,6 @@
                     </div>
                     
                     <div class="rounded-[2rem] overflow-hidden w-full h-full bg-[#0f172a] relative flex flex-col pt-6">
-                        
                         <div class="px-4 py-4 flex justify-between items-center bg-[#0f172a]/90 backdrop-blur-md z-10 border-b border-white/5">
                             <div class="flex items-center gap-3">
                                 <div class="w-8 h-8 rounded-lg bg-blue-600 flex items-center justify-center">
@@ -298,77 +274,45 @@
                                     <p class="text-slate-400 text-[10px]">Portal do Técnico</p>
                                 </div>
                             </div>
-                            <i data-lucide="bell-ring" class="w-5 h-5 text-red-400"></i>
                         </div>
 
                         <div class="flex-1 p-4 space-y-4 overflow-y-auto hide-scrollbar relative pb-20">
-                            
                             <div class="bg-red-500/10 border border-red-500/20 rounded-xl p-3 flex items-start gap-3">
-                                <div class="mt-0.5">
-                                    <i data-lucide="alert-triangle" class="w-4 h-4 text-red-400"></i>
-                                </div>
+                                <div class="mt-0.5"><i data-lucide="alert-triangle" class="w-4 h-4 text-red-400"></i></div>
                                 <div>
                                     <p class="text-red-400 font-bold text-[11px] uppercase tracking-wider">Estoque Crítico Detectado</p>
-                                    <p class="text-slate-300 text-[10px] mt-1 leading-tight">Ruptura evitada: Peça X-29 solicitada automaticamente ao fornecedor via API.</p>
+                                    <p class="text-slate-300 text-[10px] mt-1 leading-tight">Ruptura evitada: Peça X-29 solicitada via API.</p>
                                 </div>
                             </div>
                             
                             <div class="bg-slate-800/80 rounded-2xl p-4 border border-white/5 relative overflow-hidden shadow-lg">
                                 <div class="flex justify-between items-start mb-3">
-                                    <span class="text-blue-400 text-[10px] font-bold uppercase tracking-wider bg-blue-500/10 px-2 py-1 rounded">Ordem de Serviço #4092</span>
+                                    <span class="text-blue-400 text-[10px] font-bold uppercase tracking-wider bg-blue-500/10 px-2 py-1 rounded">OS #4092</span>
                                     <span class="flex items-center gap-1 text-[9px] text-yellow-400"><span class="w-1.5 h-1.5 rounded-full bg-yellow-400"></span> Em Rota</span>
                                 </div>
-                                
                                 <h3 class="text-white font-bold text-lg leading-tight mb-1">Manutenção Indústria Alpha</h3>
                                 <p class="text-slate-400 text-xs mb-4"><i data-lucide="map-pin" class="w-3 h-3 inline mr-1"></i> R. das Inovações, Galpão 4</p>
-                                
-                                <div class="space-y-2 mb-4">
-                                    <div class="flex justify-between text-[11px]">
-                                        <span class="text-slate-500">Equipamento:</span>
-                                        <span class="text-slate-300 font-semibold">Motor Compressor ZX</span>
-                                    </div>
-                                    <div class="flex justify-between text-[11px]">
-                                        <span class="text-slate-500">Problema relatado:</span>
-                                        <span class="text-slate-300 font-semibold text-right max-w-[120px]">Superaquecimento na válvula</span>
-                                    </div>
-                                </div>
-
                                 <div class="flex gap-2">
-                                    <button class="flex-1 bg-slate-700/50 hover:bg-slate-700 text-cyan-400 text-[10px] font-bold py-2 rounded-lg transition border border-slate-600 flex justify-center items-center gap-1">
+                                    <button class="flex-1 bg-slate-700/50 text-cyan-400 text-[10px] font-bold py-2 rounded-lg border border-slate-600 flex justify-center items-center gap-1">
                                         <i data-lucide="qr-code" class="w-3 h-3"></i> Ler QR Code
                                     </button>
-                                    <button class="flex-1 bg-slate-700/50 hover:bg-slate-700 text-green-400 text-[10px] font-bold py-2 rounded-lg transition border border-slate-600 flex justify-center items-center gap-1">
-                                        <i data-lucide="clipboard-signature" class="w-3 h-3"></i> Assinatura Cliente
-                                    </button>
                                 </div>
                             </div>
-                            
-                            <button class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold text-sm py-3.5 rounded-xl transition-colors shadow-[0_0_15px_rgba(37,99,235,0.4)] flex justify-center items-center gap-2">
+                            <button class="w-full bg-blue-600 text-white font-bold text-sm py-3.5 rounded-xl shadow-[0_0_15px_rgba(37,99,235,0.4)] flex justify-center items-center gap-2">
                                 <i data-lucide="check-circle" class="w-4 h-4"></i> Concluir Atendimento
                             </button>
-                        </div>
-
-                        <div class="h-16 bg-[#0f172a] border-t border-slate-800 flex justify-around items-center px-2 pb-1 absolute bottom-0 w-full z-20">
-                            <div class="flex flex-col items-center gap-1 text-blue-400">
-                                <i data-lucide="layout-dashboard" class="w-5 h-5"></i>
-                                <span class="text-[9px] font-bold">Painel</span>
-                            </div>
-                            <div class="flex flex-col items-center gap-1 text-slate-500 hover:text-slate-400">
-                                <i data-lucide="list-todo" class="w-5 h-5"></i>
-                                <span class="text-[9px]">Tarefas</span>
-                            </div>
-                            <div class="flex flex-col items-center gap-1 text-slate-500 hover:text-slate-400">
-                                <i data-lucide="package" class="w-5 h-5"></i>
-                                <span class="text-[9px]">Estoque</span>
-                            </div>
-                            <div class="flex flex-col items-center gap-1 text-slate-500 hover:text-slate-400">
-                                <i data-lucide="user" class="w-5 h-5"></i>
-                                <span class="text-[9px]">Perfil</span>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="w-full mt-8 flex justify-center lg:hidden">
+                <a href="https://wa.me/5535999700513?text=Ol%C3%A1%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento%20para%20um%20App%20Sob%20Medida%20para%20minha%20empresa." 
+                   class="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-200 text-slate-900 font-bold text-sm px-6 py-4 rounded-full transition-all w-full sm:w-auto">
+                    Solicitar Orçamento <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+            
         </div>
     </section>
 
@@ -378,7 +322,6 @@
             <p class="text-slate-400 text-base md:text-lg mb-12 md:mb-16 max-w-2xl mx-auto px-2">Não somos só promessas. Veja as interfaces reais dos nossos sistemas prontos para digitalizar o seu negócio em 48h.</p>
 
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 md:gap-8 text-left">
-                
                 <div class="glass-panel rounded-3xl flex flex-col justify-between border-t border-white/10 overflow-hidden group">
                     <div class="p-6 md:p-8 pb-0">
                         <div class="flex items-center justify-between mb-4">
@@ -413,16 +356,6 @@
                                         <div class="text-[9px] text-green-400">R$ 55,00</div>
                                     </div>
                                 </div>
-                                <div class="bg-slate-800/40 p-2.5 rounded-lg flex justify-between items-center border border-white/5 opacity-70">
-                                    <div class="flex items-center gap-3">
-                                        <div class="w-8 h-8 rounded-full bg-slate-700 flex items-center justify-center text-[10px] font-bold">PS</div>
-                                        <div>
-                                            <div class="text-[11px] text-white font-bold">Pedro Silva</div>
-                                            <div class="text-[9px] text-slate-400 mt-0.5">Corte Infantil</div>
-                                        </div>
-                                    </div>
-                                    <div class="text-[10px] text-slate-400 font-bold">16:15</div>
-                                </div>
                             </div>
                             <div class="absolute bottom-0 w-full h-16 bg-gradient-to-t from-[#0f172a] to-transparent pointer-events-none"></div>
                         </div>
@@ -430,7 +363,6 @@
                 </div>
 
                 <div class="glass-panel rounded-3xl flex flex-col justify-between border-t border-white/10 overflow-hidden relative group">
-                    <div class="absolute top-0 right-0 p-4 opacity-10 pointer-events-none"><i data-lucide="sparkles" class="w-24 h-24"></i></div>
                     <div class="p-6 md:p-8 pb-0 relative z-10">
                         <div class="flex items-center justify-between mb-4">
                             <div class="w-12 h-12 bg-slate-800 rounded-xl flex items-center justify-center border border-slate-700">
@@ -442,7 +374,7 @@
                             </a>
                         </div>
                         <h3 class="text-xl md:text-2xl font-bold text-white mb-2">Salão Pro</h3>
-                        <p class="text-slate-400 text-sm leading-relaxed mb-6">Prontuário digital detalhado, controle de estoque integrado e alertas de retorno via WhatsApp.</p>
+                        <p class="text-slate-400 text-sm leading-relaxed mb-6">Prontuário digital detalhado, controle de estoque e alertas de retorno via WhatsApp.</p>
                     </div>
                     <div class="mt-auto px-6 pt-4 bg-gradient-to-b from-transparent to-slate-950/80 relative z-10">
                         <div class="border border-slate-700/50 bg-[#0f172a] rounded-t-xl h-44 overflow-hidden relative shadow-2xl transform group-hover:translate-y-1 transition-transform duration-500">
@@ -458,13 +390,6 @@
                                     <div>
                                         <div class="text-xs text-white font-bold">Amanda Fernandes</div>
                                         <div class="text-[9px] text-slate-400 mt-0.5">Retorno sugerido: Em 5 dias</div>
-                                    </div>
-                                </div>
-                                <div class="bg-slate-800/60 p-2.5 rounded-lg border border-white/5 border-l-2 border-l-pink-500">
-                                    <div class="text-[9px] text-slate-400 mb-1.5 uppercase font-bold tracking-wider">Último Procedimento</div>
-                                    <div class="flex items-center gap-2">
-                                        <span class="w-2.5 h-2.5 rounded-full bg-[#D4AF37]"></span>
-                                        <span class="text-[11px] text-white">Coloração Loiro Mel 8.3</span>
                                     </div>
                                 </div>
                             </div>
@@ -495,26 +420,14 @@
                             </div>
                             <div class="p-3 grid grid-cols-2 gap-2">
                                 <div class="bg-slate-800/60 p-2.5 rounded-lg border border-cyan-500/40 relative overflow-hidden">
-                                    <div class="absolute top-0 right-0 w-8 h-8 bg-cyan-500/10 rounded-bl-full"></div>
                                     <div class="text-[9px] text-slate-400 mb-1">Quadra Principal</div>
                                     <div class="text-[11px] text-cyan-400 font-bold">18:00 - 20:00</div>
-                                    <div class="mt-2 text-[9px] text-white flex items-center gap-1">
-                                        <span class="w-1.5 h-1.5 rounded-full bg-red-500"></span> Ocupado
-                                    </div>
-                                </div>
-                                <div class="bg-slate-800/40 p-2.5 rounded-lg border border-slate-700 border-dashed">
-                                    <div class="text-[9px] text-slate-400 mb-1">Quadra 02</div>
-                                    <div class="text-[11px] text-slate-500 font-bold">Disponível</div>
-                                    <div class="mt-2 text-[9px] text-green-400 flex items-center gap-1">
-                                        <i data-lucide="check-circle-2" class="w-3 h-3"></i> Livre agora
-                                    </div>
                                 </div>
                             </div>
                             <div class="absolute bottom-0 w-full h-16 bg-gradient-to-t from-[#0f172a] to-transparent pointer-events-none"></div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -522,20 +435,17 @@
     <footer class="relative z-10 border-t border-white/5 bg-[#02040a] pt-12 pb-8">
         <div class="container mx-auto px-4 md:px-6 text-center">
             <h2 class="text-xl md:text-2xl font-bold text-white mb-8">O Código Por Trás do Sucesso.</h2>
-            
             <div class="flex flex-wrap justify-center gap-2 md:gap-4 mb-10">
                 <span class="glass-panel px-3 py-1.5 md:px-4 md:py-2 rounded-lg text-xs md:text-sm font-mono text-slate-400">JAVA</span>
                 <span class="glass-panel px-3 py-1.5 md:px-4 md:py-2 rounded-lg text-xs md:text-sm font-mono text-slate-400">KOTLIN</span>
                 <span class="glass-panel px-3 py-1.5 md:px-4 md:py-2 rounded-lg text-xs md:text-sm font-mono text-slate-400">NODE.JS</span>
                 <span class="glass-panel px-3 py-1.5 md:px-4 md:py-2 rounded-lg text-xs md:text-sm font-mono text-slate-400">LLM AGENTS</span>
             </div>
-            
             <a href="https://wa.me/5535999700513?text=Ol%C3%A1%21%20Gostaria%20de%20falar%20com%20um%20engenheiro%20da%20Wezanc." 
                class="inline-flex items-center justify-center gap-2 text-white hover:text-cyan-400 font-bold py-3 transition-colors mb-10 w-full sm:w-auto">
                 <i data-lucide="message-circle" class="w-5 h-5"></i>
                 Chamar no WhatsApp
             </a>
-            
             <div class="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                 <div class="flex items-center gap-2">
                     <i data-lucide="cpu" class="text-slate-600 w-5 h-5"></i>
